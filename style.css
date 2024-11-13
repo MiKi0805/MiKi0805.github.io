@@ -1,0 +1,17 @@
+#center-container {
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    justify-content: center; /* Horizontally center content */
+    align-items: center;     /* Vertically center content */
+    height: 100vh;           /* Full viewport height */
+}
+
+#logo {
+    width: 500px;    /* Adjust the width of the logo */
+    margin-bottom: 20px; /* Add space between the logo and the button */
+}
+
+#itchio-link button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
